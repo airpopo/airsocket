@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - '4.4'
+after_script:
+  - codeclimate-test-reporter < coverage/lcov.info
+notifications:
+  email:
+    recipients:
+      - yuting1987@gmail.com
+  slack: airpopo:hS4uSxwRpVxMiYFNfGXwCb4U
